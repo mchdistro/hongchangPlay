@@ -169,6 +169,27 @@
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
             "MD5": "28922a78d1876ee062e3265f10abcc46"
           }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/servers.dat",
+            "MD5": "cbd099569bbdd7a837d41bb3f2e14743",
+            "path": "servers.dat"
+          }
         }
       ]
     }
