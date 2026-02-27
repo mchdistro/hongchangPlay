@@ -181,6 +181,16 @@
           }
         },
         {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514383,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
+          }
+        },
+        {
           "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21.3@jar",
           "name": "Korean Patch",
           "type": "FabricMod",
