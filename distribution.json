@@ -171,6 +171,16 @@
           }
         },
         {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 312,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
@@ -189,6 +199,17 @@
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/servers.dat",
             "MD5": "cbd099569bbdd7a837d41bb3f2e14743",
             "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.7.1.zip",
+          "name": "ComplementaryUnbound_r5.7.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 522973,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+            "MD5": "b535d194c7115b360860e226c65ae3f2",
+            "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
           }
         }
       ]
