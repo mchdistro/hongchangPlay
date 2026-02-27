@@ -131,6 +131,16 @@
           ]
         },
         {
+          "id": "me.ddayo:aris:1.1.0-260223_2038@jar",
+          "name": "Project Aris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3473012,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/aris-1.1.0-260223_2038.jar",
+            "MD5": "80668a8751e0f29c4821346fe6bdd2fa"
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -138,6 +148,26 @@
             "size": 2149128,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
             "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "com.gitter.gtdonationapi.fabric.v1_21_4:gtdonationapi:2.0.7@jar",
+          "name": "GT-DonationAPI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8993832,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/GT-DonationAPI-fabric-1.21.4-2.0.7.jar",
+            "MD5": "314ce481f2c1039cf71b0f43964fb8f7"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104906,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/gtnick-fabric-1.21.4-2.0.4.jar",
+            "MD5": "c515eadc754ec9a09893d2bfc06a6aff"
           }
         },
         {
