@@ -191,6 +191,16 @@
           }
         },
         {
+          "id": "su.plo.voice:plasmovoice:2.1.8@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12213283,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.8.jar",
+            "MD5": "2bdd1e46a3024b572da60345a7998bac"
+          }
+        },
+        {
           "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
           "name": "Sodium",
           "type": "FabricMod",
