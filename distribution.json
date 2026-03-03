@@ -151,6 +151,16 @@
           }
         },
         {
+          "id": "kr.shihyeon:blurserveraddress:1.2.0+mc1.21.2@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11418,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/blurserveraddress-fabric-1.2.0+mc1.21.2.jar",
+            "MD5": "1294fe12bfc2d2dbe8e4541c27873fd2"
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
