@@ -339,9 +339,9 @@
           "name": "menu.airs.lua",
           "type": "File",
           "artifact": {
-            "size": 2652,
+            "size": 2651,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/menu.airs.lua",
-            "MD5": "30b4bb22bd5693e7f36f467912bd6b08",
+            "MD5": "f55ccf96d04162445b796692fd33501b",
             "path": "robots/client-game/menu.airs.lua"
           }
         },

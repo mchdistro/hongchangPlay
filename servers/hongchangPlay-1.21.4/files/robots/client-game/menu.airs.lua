@@ -26,13 +26,13 @@ function open_menu_gui()
 
     local click3 = aris.client.create_clickable(function()
         menu_gui:close()
-        aris.game.client.invoke_command(" 낚시터")
+        aris.game.client.invoke_command("우체국")
     end, 1153, 261, 138, 203)
     menu_gui:add_child(click3)
 
     local click4 = aris.client.create_clickable(function()
         menu_gui:close()
-        aris.game.client.invoke_command("우체국")
+        aris.game.client.invoke_command("닊시터")
     end, 1314, 261, 137, 203)
     menu_gui:add_child(click4)
 
