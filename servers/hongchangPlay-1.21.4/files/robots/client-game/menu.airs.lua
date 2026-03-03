@@ -20,19 +20,19 @@ function open_menu_gui()
 
     local click2 = aris.client.create_clickable(function()
         menu_gui:close()
-        aris.game.client.invoke_command("워프 로비")
+        aris.game.client.invoke_command("로비")
     end, 993, 262, 137, 202)
     menu_gui:add_child(click2)
 
     local click3 = aris.client.create_clickable(function()
         menu_gui:close()
-        aris.game.client.invoke_command("워프 낚시터")
+        aris.game.client.invoke_command(" 낚시터")
     end, 1153, 261, 138, 203)
     menu_gui:add_child(click3)
 
     local click4 = aris.client.create_clickable(function()
         menu_gui:close()
-        aris.game.client.invoke_command("워프 우체국")
+        aris.game.client.invoke_command("우체국")
     end, 1314, 261, 137, 203)
     menu_gui:add_child(click4)
 
