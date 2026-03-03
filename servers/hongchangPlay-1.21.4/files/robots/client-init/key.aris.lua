@@ -1,0 +1,1 @@
+aris.init.client.create_keybinding("menu", 96, "홍창의 숲")

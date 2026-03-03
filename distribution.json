@@ -131,13 +131,23 @@
           ]
         },
         {
-          "id": "me.ddayo:aris:1.1.0-260223_2038@jar",
+          "id": "me.ddayo:aris:1.1.0-260302_2222@jar",
           "name": "Project Aris",
           "type": "FabricMod",
           "artifact": {
-            "size": 3473012,
-            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/aris-1.1.0-260223_2038.jar",
-            "MD5": "80668a8751e0f29c4821346fe6bdd2fa"
+            "size": 3473436,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/aris-1.1.0-260302_2222.jar",
+            "MD5": "fb10fd0e55752ded50afc263e5bc72ba"
+          }
+        },
+        {
+          "id": "me.axieum.mcmod.authme.impl:authme:9.0.1+1.21.4@jar",
+          "name": "Auth Me",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 376047,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/authme-fabric-9.0.1+1.21.4.jar",
+            "MD5": "3c220399e5c34dae32224818c7acaa6c"
           }
         },
         {
@@ -148,6 +158,16 @@
             "size": 2149128,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
             "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.9+kotlin.2.3.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7642216,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
+            "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d"
           }
         },
         {
@@ -221,6 +241,59 @@
           }
         },
         {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1130824,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.4-fabric.jar",
+            "MD5": "892f173cfd0619203438efcc9dcf0014"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.15.2+1.21.5@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 872894,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/fabricmods/required/zoomify-2.15.2+1.21.5.jar",
+            "MD5": "2094cdfca3b0f225bd94710eb1a4e593"
+          }
+        },
+        {
+          "id": "hud.png",
+          "name": "hud.png",
+          "type": "File",
+          "artifact": {
+            "size": 18543,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/hud.png",
+            "MD5": "475838fd7d9cacfb2dfd387e12065990",
+            "path": "assets/images/hud.png"
+          }
+        },
+        {
+          "id": "menu.png",
+          "name": "menu.png",
+          "type": "File",
+          "artifact": {
+            "size": 177831,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/menu.png",
+            "MD5": "6512fc856f90fd5cf7adfba51205dc1f",
+            "path": "assets/images/menu.png"
+          }
+        },
+        {
+          "id": "roulette.png",
+          "name": "roulette.png",
+          "type": "File",
+          "artifact": {
+            "size": 1375429,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/roulette.png",
+            "MD5": "cfa70e156340bf80a40c390637cb0d87",
+            "path": "assets/images/roulette.png"
+          }
+        },
+        {
           "id": "iris.properties",
           "name": "iris.properties",
           "type": "File",
@@ -238,6 +311,61 @@
             "size": 192,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/options.txt",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "hud.airs.lua",
+          "name": "hud.airs.lua",
+          "type": "File",
+          "artifact": {
+            "size": 2498,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/hud.airs.lua",
+            "MD5": "bc9fe82cfdae98550e8906106f3584d0",
+            "path": "robots/client-game/hud.airs.lua"
+          }
+        },
+        {
+          "id": "menu.airs.lua",
+          "name": "menu.airs.lua",
+          "type": "File",
+          "artifact": {
+            "size": 2672,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/menu.airs.lua",
+            "MD5": "115e988d87a875c733f6368d4380a5a3",
+            "path": "robots/client-game/menu.airs.lua"
+          }
+        },
+        {
+          "id": "roulette.aris.lua",
+          "name": "roulette.aris.lua",
+          "type": "File",
+          "artifact": {
+            "size": 6523,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/roulette.aris.lua",
+            "MD5": "c6a0c9276f67723274e477062befb3c5",
+            "path": "robots/client-game/roulette.aris.lua"
+          }
+        },
+        {
+          "id": "key.aris.lua",
+          "name": "key.aris.lua",
+          "type": "File",
+          "artifact": {
+            "size": 63,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-init/key.aris.lua",
+            "MD5": "54b4290e651895bdd2eecafe56bb34be",
+            "path": "robots/client-init/key.aris.lua"
+          }
+        },
+        {
+          "id": "skill_packet_init.aris.lua",
+          "name": "skill_packet_init.aris.lua",
+          "type": "File",
+          "artifact": {
+            "size": 1243,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/init/skill_packet_init.aris.lua",
+            "MD5": "5db0e6eeccdc67297854f6b597e47118",
+            "path": "robots/init/skill_packet_init.aris.lua"
           }
         },
         {
