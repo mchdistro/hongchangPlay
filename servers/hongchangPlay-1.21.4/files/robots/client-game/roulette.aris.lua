@@ -44,9 +44,9 @@ function split(str, delimiter)
 end
 
 function spin_roulette(text, data_list, scale)
-    local base_spins = 10
-    local start_delay = 30
-    local end_delay = 300
+    local base_spins = 5
+    local start_delay = 15
+    local end_delay = 150
 
     local last_val = data_list[#data_list]
     local range_min, range_max = string.match(last_val, "^([%d,]+)~([%d,]+)$")
@@ -199,9 +199,9 @@ function open_roulette_gui(data1, data2, data3, data4, msg)
     msg_text:set_scale(6)
     roulette_gui:add_child(msg_text)
 
-    local packet_builder = aris.game.client.networking.create_c2s_packet_builder("roulette_complete")
-    packet_builder:append_string("done", "true")
-    aris.game.client.networking.send_c2s_packet(packet_builder)
+    -- local packet_builder = aris.game.client.networking.create_c2s_packet_builder("roulette_complete")
+    -- packet_builder:append_string("done", "true")
+    -- aris.game.client.networking.send_c2s_packet(packet_builder)
 end
 
 -- 테스트 용

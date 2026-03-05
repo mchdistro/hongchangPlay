@@ -8,12 +8,7 @@
 
 -- skill_hud:open_hud()
 
-function get_limg()
-    
-    
-end
-
-local SCREEN_WIDTH1 = 850
+local SCREEN_WIDTH1 = 640
 
 function text_pixel_width1(str)
     local width = 0
@@ -50,23 +45,25 @@ bimg:set_x(0)
 hud:add_child(bimg)
 
 local displayName = aris.client.create_default_text_renderer("", 0X000000)
-displayName:set_scale(6)
+displayName:set_scale(5)
 local a = center_x1("", 6)
 displayName:set_x(a)
-displayName:set_y(60)
+displayName:set_y(50)
 hud:add_child(displayName)
 
 local money = aris.client.create_default_text_renderer("", 0X000000)
 money:set_scale(4)
 money:set_x(center_x1("", 4))
-money:set_y(165)
+money:set_y(125)
 hud:add_child(money)
 
-local limg = aris.client.create_image_renderer(aris.client.load_image(""))
-limg:set_width(256)
-limg:set_height(256)
-limg:set_x(30)
-limg:set_y(20)
+-- local url = "https://raw.githubusercontent.com/suhotest/hongsinso-server/main/%ED%85%8C%ED%85%8C%ED%85%8C.png"
+local url = ""
+local limg = aris.client.create_image_renderer(aris.client.load_image(url))
+limg:set_width(130)
+limg:set_height(130)
+limg:set_x(55)
+limg:set_y(40)
 hud:add_child(limg)
 
 hud:open_hud()
@@ -79,10 +76,10 @@ function urlencode(str)
 end
 
 aris.game.client.networking.register_s2c_packet_handler("hud_info", function(v)
-    
+
     local player_displayName = v.displayName
     displayName:set_text(player_displayName)
-    displayName:set_x(center_x1(player_displayName, 6))
+    displayName:set_x(center_x1(player_displayName, 5))
 
     money:set_text(v.money.."타코")
     money:set_x(center_x1(v.money.."타코", 4))
