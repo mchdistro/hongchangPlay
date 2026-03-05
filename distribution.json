@@ -339,9 +339,9 @@
           "name": "hud.airs.lua",
           "type": "File",
           "artifact": {
-            "size": 2551,
+            "size": 2608,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/hud.airs.lua",
-            "MD5": "8cbc5dba0ba647ea98ad2860cb8dfdf8",
+            "MD5": "b78b4dc9b63e87f3a8ff495481ebbe9f",
             "path": "robots/client-game/hud.airs.lua"
           }
         },
@@ -361,9 +361,9 @@
           "name": "roulette.aris.lua",
           "type": "File",
           "artifact": {
-            "size": 6531,
+            "size": 6519,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/roulette.aris.lua",
-            "MD5": "bd5089fb1b16e6899213948f42464997",
+            "MD5": "91d5ece1c38d3924267c18786eedfa20",
             "path": "robots/client-game/roulette.aris.lua"
           }
         },

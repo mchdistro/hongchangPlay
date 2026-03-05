@@ -44,9 +44,9 @@ function split(str, delimiter)
 end
 
 function spin_roulette(text, data_list, scale)
-    local base_spins = 5
-    local start_delay = 15
-    local end_delay = 150
+    local base_spins = 3
+    local start_delay = 10
+    local end_delay = 80
 
     local last_val = data_list[#data_list]
     local range_min, range_max = string.match(last_val, "^([%d,]+)~([%d,]+)$")
@@ -56,7 +56,7 @@ function spin_roulette(text, data_list, scale)
         range_min = tonumber((range_min:gsub(",", "")))
         range_max = tonumber((range_max:gsub(",", "")))
         local target = tonumber((data_list[1]:gsub(",", "")))
-        local total_spins = 30
+        local total_spins = 12
 
         for i = 1, total_spins - 1 do
             local progress = i / total_spins
@@ -87,11 +87,11 @@ function spin_roulette(text, data_list, scale)
     end
 
     -- 결과 깜빡깜빡
-    for i = 1, 6 do
+    for i = 1, 4 do
         text:set_is_visible(false)
-        task_sleep(150)
+        task_sleep(80)
         text:set_is_visible(true)
-        task_sleep(150)
+        task_sleep(80)
     end
 end
 
@@ -199,9 +199,9 @@ function open_roulette_gui(data1, data2, data3, data4, msg)
     msg_text:set_scale(6)
     roulette_gui:add_child(msg_text)
 
-    -- local packet_builder = aris.game.client.networking.create_c2s_packet_builder("roulette_complete")
-    -- packet_builder:append_string("done", "true")
-    -- aris.game.client.networking.send_c2s_packet(packet_builder)
+    local packet_builder = aris.game.client.networking.create_c2s_packet_builder("roulette_complete")
+    packet_builder:append_string("done", "true")
+    aris.game.client.networking.send_c2s_packet(packet_builder)
 end
 
 -- 테스트 용
