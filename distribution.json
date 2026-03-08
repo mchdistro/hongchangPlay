@@ -443,6 +443,17 @@
             "MD5": "b535d194c7115b360860e226c65ae3f2",
             "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
           }
+        },
+        {
+          "id": "flashlight-shader.zip",
+          "name": "flashlight-shader.zip",
+          "type": "File",
+          "artifact": {
+            "size": 8196,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/shaderpacks/flashlight-shader.zip",
+            "MD5": "ce85d732d7b7678ea33b494c7bd09732",
+            "path": "shaderpacks/flashlight-shader.zip"
+          }
         }
       ]
     }
