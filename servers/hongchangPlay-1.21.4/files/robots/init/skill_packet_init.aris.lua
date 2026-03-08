@@ -21,3 +21,21 @@ local hud_info_s2c = aris.init.networking.create_s2c_packet("hud_info")
 hud_info_s2c:append(aris.init.networking.string_arg("displayName"))
 hud_info_s2c:append(aris.init.networking.string_arg("money"))
 hud_info_s2c:append(aris.init.networking.string_arg("villageName"))
+
+-- 이미지
+local img_s2c = aris.init.networking.create_s2c_packet("img")
+img_s2c:append(aris.init.networking.string_arg("img_url"))
+img_s2c:append(aris.init.networking.string_arg("width"))
+img_s2c:append(aris.init.networking.string_arg("height"))
+img_s2c:append(aris.init.networking.string_arg("x"))
+img_s2c:append(aris.init.networking.string_arg("y"))
+img_s2c:append(aris.init.networking.string_arg("scale"))
+
+
+-- 미니게임
+
+local game_s2c = aris.init.networking.create_s2c_packet("game")
+game_s2c:append(aris.init.networking.string_arg("type"))
+
+local game_c2s = aris.init.networking.create_c2s_packet("game")
+game_c2s:append(aris.init.networking.string_arg("type"))

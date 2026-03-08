@@ -335,25 +335,36 @@
           }
         },
         {
-          "id": "hud.airs.lua",
-          "name": "hud.airs.lua",
+          "id": "hud.aris.lua",
+          "name": "hud.aris.lua",
           "type": "File",
           "artifact": {
-            "size": 2608,
-            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/hud.airs.lua",
-            "MD5": "b78b4dc9b63e87f3a8ff495481ebbe9f",
-            "path": "robots/client-game/hud.airs.lua"
+            "size": 2551,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/hud.aris.lua",
+            "MD5": "8cbc5dba0ba647ea98ad2860cb8dfdf8",
+            "path": "robots/client-game/hud.aris.lua"
           }
         },
         {
-          "id": "menu.airs.lua",
-          "name": "menu.airs.lua",
+          "id": "img.aris.lua",
+          "name": "img.aris.lua",
+          "type": "File",
+          "artifact": {
+            "size": 807,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/img.aris.lua",
+            "MD5": "a0a8158aabc654e41b518516d7a8a8f5",
+            "path": "robots/client-game/img.aris.lua"
+          }
+        },
+        {
+          "id": "menu.aris.lua",
+          "name": "menu.aris.lua",
           "type": "File",
           "artifact": {
             "size": 2651,
-            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/menu.airs.lua",
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/menu.aris.lua",
             "MD5": "f55ccf96d04162445b796692fd33501b",
-            "path": "robots/client-game/menu.airs.lua"
+            "path": "robots/client-game/menu.aris.lua"
           }
         },
         {
@@ -365,6 +376,28 @@
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/roulette.aris.lua",
             "MD5": "91d5ece1c38d3924267c18786eedfa20",
             "path": "robots/client-game/roulette.aris.lua"
+          }
+        },
+        {
+          "id": "seasoning.aris.lua",
+          "name": "seasoning.aris.lua",
+          "type": "File",
+          "artifact": {
+            "size": 2528,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/seasoning.aris.lua",
+            "MD5": "c79a2f27face34e02712fac6dd97e5fa",
+            "path": "robots/client-game/seasoning.aris.lua"
+          }
+        },
+        {
+          "id": "slicing.aris.lua",
+          "name": "slicing.aris.lua",
+          "type": "File",
+          "artifact": {
+            "size": 3986,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/client-game/slicing.aris.lua",
+            "MD5": "46e4bba5698bb99aa417bfacaa2e97f3",
+            "path": "robots/client-game/slicing.aris.lua"
           }
         },
         {
@@ -383,9 +416,9 @@
           "name": "skill_packet_init.aris.lua",
           "type": "File",
           "artifact": {
-            "size": 1243,
+            "size": 1918,
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/robots/init/skill_packet_init.aris.lua",
-            "MD5": "5db0e6eeccdc67297854f6b597e47118",
+            "MD5": "f0ffe8bef8712362398b631aeed6d51f",
             "path": "robots/init/skill_packet_init.aris.lua"
           }
         },

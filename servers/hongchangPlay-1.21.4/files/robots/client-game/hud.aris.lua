@@ -80,8 +80,6 @@ aris.game.client.networking.register_s2c_packet_handler("hud_info", function(v)
     local player_displayName = v.displayName
     displayName:set_text(player_displayName)
     displayName:set_x(center_x1(player_displayName, 5))
-    
-    aris.game.client.send_system_message(v.money)
 
     money:set_text(v.money.."타코")
     money:set_x(center_x1(v.money.."타코", 4))
