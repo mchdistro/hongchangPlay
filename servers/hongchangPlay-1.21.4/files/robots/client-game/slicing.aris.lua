@@ -74,10 +74,10 @@ function open_slicing_gui()
 
         if get_time() - mash_start_time > mash_time * 500 then
             mash_active = false
-            if mash_count >= mash_target then
-                -- a
-            else
-                -- aris.game.client.send_system_message("111")
+            if mash_count < mash_target then
+                mash_done = true
+                img4:set_image(aris.client.load_image("failure.png"))
+                gui_close = get_time()
             end
             return
         end
@@ -97,21 +97,24 @@ function open_slicing_gui()
     gui:open()
 
     aris.game.client.hook.add_tick_hook(function()
-        if mash_active and get_time() - mash_start_time > mash_time * 5000 then
+        if mash_active and get_time() - mash_start_time > mash_time * 1000 then
             mash_active = false
-            if mash_count >= mash_target then
-                -- a
-            else
-                -- img4:set_image(aris.client.load_image("failure.png"))
-                -- gui_close = get_time()
+            if mash_count < mash_target then
+                mash_done = true
+                img4:set_image(aris.client.load_image("failure.png"))
+                gui_close = get_time()
             end
         end
         if gui_close ~= false then
-            if get_time() >= gui_close + 3000 then
+            if get_time() >= gui_close + 1000 then
                 gui:close()
                 gui_close = false
                 local packet_builder = aris.game.client.networking.create_c2s_packet_builder("game")
-                packet_builder:append_string("type", "slicing")
+                local result = "실패"
+                if mash_count >= mash_target then
+                    result = "성공"
+                end
+                packet_builder:append_string("type", "slicing||" .. result)
                 aris.game.client.networking.send_c2s_packet(packet_builder)
             end
         end
