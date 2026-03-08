@@ -337,6 +337,50 @@
           }
         },
         {
+          "id": "n1.png",
+          "name": "n1.png",
+          "type": "File",
+          "artifact": {
+            "size": 32714,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/n1.png",
+            "MD5": "065db931e532d137e15a650a83bdf9f8",
+            "path": "assets/images/seasoning/n1.png"
+          }
+        },
+        {
+          "id": "n2.png",
+          "name": "n2.png",
+          "type": "File",
+          "artifact": {
+            "size": 98437,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/n2.png",
+            "MD5": "b5c3efce19844e25938a0dae336716f9",
+            "path": "assets/images/seasoning/n2.png"
+          }
+        },
+        {
+          "id": "n3.png",
+          "name": "n3.png",
+          "type": "File",
+          "artifact": {
+            "size": 83904,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/n3.png",
+            "MD5": "85c8774e0964a1f153a6f2fc6e97b3d5",
+            "path": "assets/images/seasoning/n3.png"
+          }
+        },
+        {
+          "id": "n4.png",
+          "name": "n4.png",
+          "type": "File",
+          "artifact": {
+            "size": 97099,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/n4.png",
+            "MD5": "a448dc1e720fe7bcdef94d1898ddf766",
+            "path": "assets/images/seasoning/n4.png"
+          }
+        },
+        {
           "id": "radish.png",
           "name": "radish.png",
           "type": "File",
@@ -378,6 +422,39 @@
             "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/tub.png",
             "MD5": "5b8183b6dc9b42d3c760973f6376892a",
             "path": "assets/images/seasoning/tub.png"
+          }
+        },
+        {
+          "id": "tub_1.png",
+          "name": "tub_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2248740,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/tub_1.png",
+            "MD5": "e3a8e3ca3e8185df8cdfcf4288a39474",
+            "path": "assets/images/seasoning/tub_1.png"
+          }
+        },
+        {
+          "id": "tub_2.png",
+          "name": "tub_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2211850,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/tub_2.png",
+            "MD5": "573027a7cad6ba5d2336e1244892b0ae",
+            "path": "assets/images/seasoning/tub_2.png"
+          }
+        },
+        {
+          "id": "tub_3.png",
+          "name": "tub_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 2248117,
+            "url": "https://github.com/mchdistro/hongchangPlay/raw/main/servers/hongchangPlay-1.21.4/files/assets/images/seasoning/tub_3.png",
+            "MD5": "566ad6278cd8819e7e25b40dcabd404c",
+            "path": "assets/images/seasoning/tub_3.png"
           }
         },
         {
